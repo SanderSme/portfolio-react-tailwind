@@ -7,6 +7,7 @@ import tailwindLogo from '/Users/sande/workspace/Personal/portfolio/portfolio-re
 import figmaLogo from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/figma-logo.png'
 import reactLogo from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/react-logo.png'
 import HeadingCarousel from './HeadingCarousel/HeadingCarousel'
+import ProfilePic from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/hero-pic-desktop.svg'
 
 const HeroBanner = () => {
     const strings = ["Hello!", "Greetings!", "Hei!"]
@@ -34,7 +35,9 @@ const HeroBanner = () => {
               <ExperienceCard image={reactLogo} altText="react-logo" language="React" time={test(2023)}/>
               </div>
             </div>
-            <div className="w-2/3 md:w-1/2 lg:w-full mx-auto h-[200px] md:h-[300px] lg:h-[500px] bg-red-600"></div>
+            <div className="w-2/3 md:w-1/2 lg:w-full mx-auto h-[200px] md:h-[300px] lg:h-[500px] flex justify-center mb-[-1.5rem]">
+              <img src={ProfilePic} className=' w-full h-full object-cover'/>
+            </div>
           </div>
     )
   }
