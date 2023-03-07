@@ -12,7 +12,7 @@ const Contact = () => {
               <div className="flex flex-col md:flex-row justify-between mt-4 md:mt-8">
                 <div className='mb-6 md:mb-0'>
                   <p className="md:text-lg text-[#4d4d4d] font-semibold">Find me on social media:</p>
-                  <div className="flex gap-4 md:gap-10 mt-4">
+                  <div className="flex gap-16 lg:gap-4 md:gap-10 mt-4">
                     <a href="#" className="bg-gray-100 text-black">
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>

@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact'
 function App() {
 
   return (
-    <div className="bg-black h-screen">
+    <div className="bg-black h-screen relative">
       <header className='h-16 bg-[#313131]'>
         <Header/>
       </header>

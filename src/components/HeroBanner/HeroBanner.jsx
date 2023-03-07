@@ -35,7 +35,7 @@ const HeroBanner = () => {
               <ExperienceCard image={reactLogo} altText="react-logo" language="React" time={test(2023)}/>
               </div>
             </div>
-            <div className="w-2/3 md:w-1/2 lg:w-full mx-auto h-[200px] md:h-[300px] lg:h-[500px] flex justify-center mb-[-1.5rem]">
+            <div className="w-2/3 md:w-1/2 lg:w-full mx-auto h-[200px] md:h-[300px] lg:h-[500px] flex justify-center">
               <img src={ProfilePic} className=' w-full h-full object-cover'/>
             </div>
           </div>
