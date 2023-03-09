@@ -25,7 +25,7 @@ const HeroBanner = () => {
           <div className=" max-w-6xl mx-auto w-11/12 flex flex-col-reverse lg:flex-row ">
             <div className=" w-full text-gray-100 flex flex-col items-center ">
               <h1 className="text-3xl md:text-5xl lg:text-6xl my-6 lg:my-12 font-semibold"><HeadingCarousel strings={strings}/></h1>
-              <p className="md:text-2xl lg:mt-8">My name is Sander Smedbøl, and I am a Front end developer based in Oslo, Norway</p>
+              <p className="md:text-2xl lg:mt-8"><span className='nor hidden'>Mitt navn er Sander Smedbøl, og jeg er en Front end utvikler bosatt i Oslo, Norge</span><span className='eng'>My name is Sander Smedbøl, and I am a Front end developer based in Oslo, Norway</span></p>
               <div className="w-full flex mt-8 lg:mt-16 justify-center xl:justify-start gap-3 flex-wrap">
               <ExperienceCard image={htmlLogo} altText="html-logo" language="HTML" time={test(2021)}/>
               <ExperienceCard image={cssLogo} altText="css-logo" language="CSS" time={test(2021)}/>
