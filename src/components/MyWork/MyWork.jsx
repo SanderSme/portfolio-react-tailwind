@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import WorkCards from './WorkCards/WorkCards';
-import auctiON from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/auctiON.png'
-import BoatDatLife from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/Blog.png'
-import Museum from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/CSM.png'
-import BeerHelper from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/BeerHelper.png'
-import GameHub from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/GameHub.png'
-import ConnectFour from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/connect-four.png'
+import auctiON from '../../../public/img/auctiON.png'
+import BoatDatLife from '../../../public/img/Blog.png'
+import Museum from '../../../public/img/CSM.png'
+import BeerHelper from '../../../public/img/BeerHelper.png'
+import GameHub from '../../../public/img/GameHub.png'
+import ConnectFour from '../../../public/img/connect-four.png'
 
 const MyWork = () => {
     const [showHiddenWorks, setShowHiddenWorks] = useState(false);

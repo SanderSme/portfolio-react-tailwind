@@ -1,4 +1,4 @@
-import logo from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/logo.svg'
+import logo from '../../../../public/img/logo.svg'
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 
 const NavBarMobile = () => {

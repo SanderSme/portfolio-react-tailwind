@@ -1,4 +1,4 @@
-import logo from '/Users/sande/workspace/Personal/portfolio/portfolio-react-tailwind/public/img/logo.svg'
+import logo from '../../../../public/img/logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
