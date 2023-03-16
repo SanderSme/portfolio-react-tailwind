@@ -24,9 +24,9 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-                <div>
-                  <p className="md:text-lg text-[#4d4d4d] font-semibold"><span className='nor hidden'>Send meg en E-post:</span><span className='eng'>Send me an E-mail:</span></p>
-                  <button type="button" className="py-1 px-5 md:px-10 bg-[#2c5f2d] hover:bg-[#184219] text-gray-100 rounded-lg md:text-lg mt-4 mb-8">E-mail</button>
+                <div className='mb-10'>
+                  <p className="md:text-lg mb-4 text-[#4d4d4d] font-semibold"><span className='nor hidden'>Send meg en E-post:</span><span className='eng'>Send me an E-mail:</span></p>
+                  <a href="mailto: sander.smedbol94@gmail.com?subject=Portfolio-response" className="py-2 px-5 md:px-10 bg-[#2c5f2d] hover:bg-[#184219] text-gray-100 rounded-lg md:text-lg mb-8">E-mail</a>
                 </div>
               </div>
           </div>
