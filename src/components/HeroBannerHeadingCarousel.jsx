@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-function HeadingCarousel(props) {
+function HeroBannerHeadingCarousel(props) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const stringArray = props.strings;
     const [opacity, setOpacity] = useState(1);
@@ -29,4 +29,4 @@ function HeadingCarousel(props) {
     );
 }
 
-export default HeadingCarousel;
+export default HeroBannerHeadingCarousel;

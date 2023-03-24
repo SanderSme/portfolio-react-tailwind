@@ -1,11 +1,11 @@
-import NavBarDesktop from "./NavBarDesktop.jsx"
-import NavBarMobile from "./NavBarMobile.jsx"
+import HeaderNavBarDesktop from "./HeaderNavBarDesktop.jsx"
+import HeaderNavBarMobile from "./HeaderNavBarMobile.jsx"
 
 const Header = () => {
   return (
     <div>
-      <NavBarDesktop/>
-      <NavBarMobile/>
+      <HeaderNavBarDesktop/>
+      <HeaderNavBarMobile/>
     </div>
   )
 }

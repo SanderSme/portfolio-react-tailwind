@@ -1,10 +1,10 @@
-import logo from '../../../public/img/logo.svg'
+import logo from '../../public/img/logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-const NavBarDesktop = () => {
+const HeaderNavBarDesktop = () => {
   function scrollToMyWork() {
     const myWorkSection = document.getElementById("my-work");
     if (myWorkSection.scrollIntoView) {
@@ -96,4 +96,4 @@ const NavBarDesktop = () => {
   )
 }
 
-export default NavBarDesktop
+export default HeaderNavBarDesktop

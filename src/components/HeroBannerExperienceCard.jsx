@@ -1,4 +1,4 @@
-const ExperienceCard = ({image, altText, language, time}) => {
+const HeroBannerExperienceCard = ({image, altText, language, time}) => {
     return (
         <div className="w-40 h-14 bg-[#383838] rounded-xl shadow-lg flex gap-2 align-middle items-center p-2">
             <img src={image} alt={altText} className="h-8"/>
@@ -10,4 +10,4 @@ const ExperienceCard = ({image, altText, language, time}) => {
     )
 }
 
-export default ExperienceCard
+export default HeroBannerExperienceCard

@@ -6,7 +6,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-const HamburgerMenu = () => {
+const HeaderHamburgerMenu = () => {
   function displayNavBar() {
     document.getElementById("navBar").classList.toggle("translate-x-0")
     document.getElementById("navBar").classList.toggle("-translate-x-full")
@@ -83,4 +83,4 @@ const HamburgerMenu = () => {
   )
 }
 
-export default HamburgerMenu
+export default HeaderHamburgerMenu

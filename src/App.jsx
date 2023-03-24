@@ -1,5 +1,5 @@
 import './index.css'
-// import Header from './components/Header'
+import Header from './components/Header'
 import HeroBanner from './components/HeroBanner'
 import MyWork from './components/MyWork'
 import Profile from './components/Profile'
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="relative">
       <header className='h-16 bg-[#313131]'>
-        {/*<Header/>*/}
+        <Header/>
       </header>
       <main id='main'>
         <section className=' h-fit py-6 bg-gradient-to-b from-[#313131] to-[#4d4d4d] '>
