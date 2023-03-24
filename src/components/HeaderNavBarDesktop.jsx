@@ -80,13 +80,13 @@ const HeaderNavBarDesktop = () => {
         <li onClick={scrollToContact} className='hover:underline cursor-pointer'><span className='nor hidden'>Kontakt</span><span className='eng'>Contact</span></li>
       </ul>
       <div className="flex flex-row gap-10">
-          <a href="https://github.com/SanderSme" className="bg-[#313131] text-gray-100">
+          <a href="https://github.com/SanderSme" className="bg-[#181818] text-gray-100">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-          <a href="#" className="bg-[#313131] text-gray-100">
+          <a href="#" className="bg-[#181818] text-gray-100">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
-          <a href="#" className="bg-[#313131] text-gray-100">
+          <a href="#" className="bg-[#181818] text-gray-100">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
           <div>

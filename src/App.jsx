@@ -9,11 +9,11 @@ function App() {
 
   return (
     <div className="relative">
-      <header className='h-16 bg-[#313131]'>
+      <header className='h-16 bg-[#181818]'>
         <Header/>
       </header>
       <main id='main'>
-        <section className=' h-fit py-6 bg-gradient-to-b from-[#313131] to-[#4d4d4d] '>
+        <section className=' h-fit py-6 bg-gradient-to-b from-[#181818] to-[#202020] '>
           <HeroBanner/>
         </section>
         <section id='my-work' className='h-fit'>

@@ -15,8 +15,8 @@ const MyWork = () => {
     }
 
     return (
-        <div className=" max-w-6xl mx-auto w-11/12 bg-gray-100 p-8 rounded-lg">
-            <h2 className="text-3xl font-semibold flex justify-center text-[#4d4d4d]"><span className='nor hidden'>Mine Prosjekter</span><span
+        <div className=" max-w-6xl mx-auto w-11/12  bg-stone-400 p-8 rounded-lg">
+            <h2 className="text-3xl font-semibold flex justify-center text-[#000000]"><span className='nor hidden'>Mine Prosjekter</span><span
                 className='eng'>My Work</span></h2>
             <div className='flex flex-wrap flex-col md:flex-row justify-between'>
                 <MyWorkCards img={auctiON} altText="auctiON" heading="auctiON"
