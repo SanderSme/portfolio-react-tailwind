@@ -1,9 +1,9 @@
 import './index.css'
-import Header from './components/Header/Header.jsx'
-import HeroBanner from './components/HeroBanner/HeroBanner.jsx'
-import MyWork from './components/MyWork/MyWork.jsx'
-import Profile from './components/Profile/Profile.jsx'
-import Contact from './components/Contact.jsx'
+import Header from './components/Header/Header'
+import HeroBanner from './components/HeroBanner/HeroBanner'
+import MyWork from './components/MyWork/MyWork'
+import Profile from './components/Profile/Profile'
+import Contact from './components/Contact'
 
 function App() {
 
