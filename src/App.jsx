@@ -24,7 +24,7 @@ function App() {
           <Contact/>
         </section>
       </main>
-      <footer className='w-full h-[600px] bg-gradient-to-t from-[#313131] to-[#4d4d4d]'>
+      <footer className='w-full h-[600px] bg-gradient-to-t from-[#181818] to-[#202020]'>
 
       </footer>
     </div>
