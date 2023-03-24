@@ -16,11 +16,11 @@ function App() {
         <section className=' h-fit py-6 bg-gradient-to-b from-[#313131] to-[#4d4d4d] '>
           <HeroBanner/>
         </section>
-        <section id='my-work' className='h-fit bg-gray-100'>
+        <section id='my-work' className='h-fit'>
           <MyWork/>
         </section>
         <Profile/>
-        <section id='contact' className='h-fit bg-gray-100'>
+        <section id='contact' className='h-fit mt-8'>
           <Contact/>
         </section>
       </main>

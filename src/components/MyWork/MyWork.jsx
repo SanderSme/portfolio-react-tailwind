@@ -15,8 +15,8 @@ const MyWork = () => {
     }
   
     return (
-      <div className=" max-w-6xl mx-auto w-11/12">
-        <h2 className="text-3xl font-semibold pt-8 flex justify-center text-[#4d4d4d]"><span className='nor hidden'>Mine Prosjekter</span><span className='eng'>My Work</span></h2>
+      <div className=" max-w-6xl mx-auto w-11/12 bg-gray-100 p-8 rounded-lg">
+        <h2 className="text-3xl font-semibold flex justify-center text-[#4d4d4d]"><span className='nor hidden'>Mine Prosjekter</span><span className='eng'>My Work</span></h2>
         <div className='flex flex-wrap flex-col md:flex-row justify-between'>
           <WorkCards img={auctiON} altText="auctiON" heading="auctiON" infoEng="Auction website built with Html, Tailwindcss and JavaScript, where you can create user, log in, view products, list items and bid on products. This was created for a school exam" infoNor="Auksjonsnettsted laget med Html, Tailwindcss og JavaScript, hvor du kan opprette bruker, logge inn, se produkter, liste varer og legge inn bud på produkter. Dette ble laget for en skoleeksamen." netlify="https://lighthearted-kashata-094aed.netlify.app/" github=""/>
           <WorkCards img={BoatDatLife} altText="BoatThatLife" heading="BoatThatLife" infoEng="Blog website built with html, css, JavaScript and Wordpress. Blogposts are filled with dummy-text, and can be filtered and search through" infoNor="Bloggnettsted bygget med html, css, JavaScript og Wordpress. Blogginnlegg er fylt med fiktiv tekst og kan filtreres og søkes gjennom." netlify="https://funny-froyo-1b9411.netlify.app/" github="https://github.com/SanderSme/project-exam-2"/>
@@ -30,7 +30,7 @@ const MyWork = () => {
           )}
         </div>
         <div className='flex justify-end'>
-        <button type='button' className='py-1 px-5 md:px-10 bg-[#2c5f2d] hover:bg-[#184219] text-gray-100 rounded-lg md:text-lg mt-4 mb-8 ' onClick={toggleHiddenWorks}>
+        <button type='button' className='py-1 px-5 md:px-10 bg-[#2c5f2d] hover:bg-[#184219] text-gray-100 rounded-lg md:text-lg mt-4 ' onClick={toggleHiddenWorks}>
           <span className='eng'>
             {showHiddenWorks ? 'Show less' : 'Show more'}
           </span>
