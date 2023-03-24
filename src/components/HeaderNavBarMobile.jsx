@@ -1,7 +1,7 @@
-import logo from '../../../../public/img/logo.svg'
-import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
+import logo from '../../public/img/logo.svg'
+import HeaderHamburgerMenu from './HeaderHamburgerMenu.jsx'
 
-const NavBarMobile = () => {
+const HeaderNavBarMobile = () => {
   function changeToNorwegian(){
     const engBtn = document.getElementById('engBtnMobile')
     const norBtn = document.getElementById('norBtnMobile')
@@ -20,7 +20,7 @@ const NavBarMobile = () => {
      text.classList.add('hidden')
    })
    }
- 
+
    function changeToEnglish(){
      const engBtn = document.getElementById('engBtnMobile')
      const norBtn = document.getElementById('norBtnMobile')
@@ -41,7 +41,7 @@ const NavBarMobile = () => {
     }
   return (
     <div className="max-w-6xl mx-auto w-11/12 lg:hidden flex flex-row justify-between h-full items-center align-middle">
-        <HamburgerMenu/>
+        <HeaderHamburgerMenu/>
         <a href="#">
             <img src={logo} alt="logo" className="h-16"/>
         </a>
@@ -55,4 +55,4 @@ const NavBarMobile = () => {
   )
 }
 
-export default NavBarMobile
+export default HeaderNavBarMobile
