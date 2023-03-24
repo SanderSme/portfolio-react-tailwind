@@ -1,13 +1,13 @@
 import React from 'react'
 import ExperienceCard from './ExperienceCard'
-import htmlLogo from '../../../public/img/html-logo.png'
-import cssLogo from '../../../public/img/css-logo.png'
-import jsLogo from '../../../public/img/js-logo.png'
-import tailwindLogo from '../../../public/img/tailwind-logo.png'
-import figmaLogo from '../../../public/img/figma-logo.png'
-import reactLogo from '../../../public/img/react-logo.png'
+import htmlLogo from '../../public/img/html-logo.png'
+import cssLogo from '../../public/img/css-logo.png'
+import jsLogo from '../../public/img/js-logo.png'
+import tailwindLogo from '../../public/img/tailwind-logo.png'
+import figmaLogo from '../../public/img/figma-logo.png'
+import reactLogo from '../../public/img/react-logo.png'
 import HeadingCarousel from './HeadingCarousel'
-import ProfilePic from '../../../public/img/hero-pic-desktop.svg'
+import ProfilePic from '../../public/img/hero-pic-desktop.svg'
 
 const HeroBanner = () => {
     const strings = ["Hello!", "Greetings!", "Hei!"]
