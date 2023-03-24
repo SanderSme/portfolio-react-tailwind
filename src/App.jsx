@@ -2,7 +2,7 @@ import './index.css'
 // import Header from './components/Header/Header'
 // import HeroBanner from './components/HeroBanner/HeroBanner'
 // import MyWork from './components/MyWork/MyWork'
-// import Profile from './components/Profile/Profile'
+import Profile from './components/Profile'
 import Contact from './components/Contact'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <section id='my-work' className='h-fit'>
           {/*<MyWork/>*/}
         </section>
-        {/*<Profile/>*/}
+        <Profile/>
         <section id='contact' className='h-fit mt-8'>
           <Contact/>
         </section>
