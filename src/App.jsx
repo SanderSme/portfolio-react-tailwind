@@ -1,8 +1,8 @@
 import './index.css'
-import Header from './components/Header/Header'
-import HeroBanner from './components/HeroBanner/HeroBanner'
-import MyWork from './components/MyWork/MyWork'
-import Profile from './components/Profile/Profile'
+// import Header from './components/Header/Header'
+// import HeroBanner from './components/HeroBanner/HeroBanner'
+// import MyWork from './components/MyWork/MyWork'
+// import Profile from './components/Profile/Profile'
 import Contact from './components/Contact'
 
 function App() {
@@ -10,16 +10,16 @@ function App() {
   return (
     <div className="relative">
       <header className='h-16 bg-[#313131]'>
-        <Header/>
+        {/*<Header/>*/}
       </header>
       <main id='main'>
         <section className=' h-fit py-6 bg-gradient-to-b from-[#313131] to-[#4d4d4d] '>
-          <HeroBanner/>
+          {/*<HeroBanner/>*/}
         </section>
         <section id='my-work' className='h-fit'>
-          <MyWork/>
+          {/*<MyWork/>*/}
         </section>
-        <Profile/>
+        {/*<Profile/>*/}
         <section id='contact' className='h-fit mt-8'>
           <Contact/>
         </section>
