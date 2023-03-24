@@ -1,7 +1,7 @@
 import './index.css'
 // import Header from './components/Header/Header'
 // import HeroBanner from './components/HeroBanner/HeroBanner'
-// import MyWork from './components/MyWork/MyWork'
+import MyWork from './components/MyWork'
 import Profile from './components/Profile'
 import Contact from './components/Contact'
 
