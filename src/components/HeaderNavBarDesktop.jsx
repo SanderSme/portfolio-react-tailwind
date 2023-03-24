@@ -1,4 +1,6 @@
 import logo from '../../public/img/logo.svg'
+import engFlag from '../../public/img/eng-flag.svg'
+import norFlag from '../../public/img/nor-flag.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
@@ -88,8 +90,8 @@ const HeaderNavBarDesktop = () => {
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
           <div>
-            <button type="button" className="w-8 h-8 bg-gray-100 rounded-l" id='engBtn' onClick={changeToEnglish}><img src="/public/img/eng-flag.svg" alt="english" className='w-full h-full p-1' id='engFlag' /></button>
-            <button type="button" className="w-8 h-8 bg-gray-300 rounded-r" id='norBtn' onClick={changeToNorwegian}><img src="/public/img/nor-flag.svg" alt="norwegian" className='w-full h-full p-1 opacity-60' id='norFlag' /></button>
+            <button type="button" className="w-8 h-8 bg-gray-100 rounded-l" id='engBtn' onClick={changeToEnglish}><img src={engFlag} alt="english" className='w-full h-full p-1' id='engFlag' /></button>
+            <button type="button" className="w-8 h-8 bg-gray-300 rounded-r" id='norBtn' onClick={changeToNorwegian}><img src={norFlag} alt="norwegian" className='w-full h-full p-1 opacity-60' id='norFlag' /></button>
           </div>
       </div>
     </div>
