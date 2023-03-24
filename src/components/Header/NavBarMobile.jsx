@@ -1,5 +1,5 @@
-import logo from '../../../../public/img/logo.svg'
-import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
+import logo from '../../../public/img/logo.svg'
+import HamburgerMenu from './HamburgerMenu.jsx'
 
 const NavBarMobile = () => {
   function changeToNorwegian(){
@@ -20,7 +20,7 @@ const NavBarMobile = () => {
      text.classList.add('hidden')
    })
    }
- 
+
    function changeToEnglish(){
      const engBtn = document.getElementById('engBtnMobile')
      const norBtn = document.getElementById('norBtnMobile')

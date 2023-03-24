@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/NavBarAnimation.css'
+import './NavBarAnimation.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'

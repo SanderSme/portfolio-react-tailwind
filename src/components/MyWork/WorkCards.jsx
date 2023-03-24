@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import netlifyLogo from '../../../../public/img/netlify.svg'
+import netlifyLogo from '../../../public/img/netlify.svg'
 
 const WorkCards = ({img, altText, heading, infoEng, infoNor, netlify, github}) => {
     return (
@@ -17,5 +17,5 @@ const WorkCards = ({img, altText, heading, infoEng, infoNor, netlify, github}) =
       </div>
     )
   }
-  
+
   export default WorkCards

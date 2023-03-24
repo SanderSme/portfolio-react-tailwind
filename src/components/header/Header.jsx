@@ -1,5 +1,5 @@
-import NavBarDesktop from "./NavBarDesktop/NavBarDesktop"
-import NavBarMobile from "./NavBarMobile/NavBarMobile"
+import NavBarDesktop from "./NavBarDesktop.jsx"
+import NavBarMobile from "./NavBarMobile.jsx"
 
 const Header = () => {
   return (
