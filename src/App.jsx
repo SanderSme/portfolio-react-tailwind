@@ -4,6 +4,7 @@ import HeroBanner from './components/HeroBanner'
 import MyWork from './components/MyWork'
 import Profile from './components/Profile'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -24,8 +25,8 @@ function App() {
           <Contact/>
         </section>
       </main>
-      <footer className='w-full h-[600px] bg-gradient-to-t from-[#181818] to-[#202020]'>
-
+      <footer className='w-full h-fit bg-gradient-to-t from-[#181818] to-[#202020] mt-16'>
+        <Footer/>
       </footer>
     </div>
   )
