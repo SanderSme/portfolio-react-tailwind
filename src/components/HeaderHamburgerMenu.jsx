@@ -60,7 +60,7 @@ const HeaderHamburgerMenu = () => {
   return (
       <div>
         <button type='button' id='burgerBtn' onClick={displayNavBar} className='text-gray-100 p-1 rounded'><FontAwesomeIcon icon={faBars} className='w-8 h-8'/></button>
-        <ul className='absolute h-full top-16 bg-[#313131] left-0 right-0 transform -translate-x-full md:text-xl' id='navBar'>
+        <ul className='absolute h-full top-16 bg-[#181818] left-0 right-0 transform -translate-x-full md:text-xl' id='navBar'>
           <li className='text-gray-100 ml-16 mt-12 cursor-pointer' onClick={scrollToMyWork}><span className='nor hidden'>Mine Prosjekter</span><span className='eng'>My Work</span></li>
           <li className='text-gray-100 ml-16 mt-12 cursor-pointer' onClick={scrollToProfile}><span className='nor hidden'>Profil</span><span className='eng'>Profile</span></li>
           <li className='text-gray-100 ml-16 mt-12 cursor-pointer' onClick={scrollToContact}><span className='nor hidden'>Kontakt</span><span className='eng'>Contact</span></li>
