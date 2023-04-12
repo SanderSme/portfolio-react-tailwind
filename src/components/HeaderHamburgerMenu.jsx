@@ -70,10 +70,10 @@ const HeaderHamburgerMenu = () => {
               <a href="https://github.com/SanderSme" className="bg-[#313131] text-gray-100">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
-              <a href="#" className="bg-[#313131] text-gray-100">
+              <a href="https://www.facebook.com/sandersmedbol" className="bg-[#313131] text-gray-100">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
-              <a href="#" className="bg-[#313131] text-gray-100">
+              <a href="https://www.linkedin.com/in/sander-smedb%C3%B8l-6b6352224/" className="bg-[#313131] text-gray-100">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </div>

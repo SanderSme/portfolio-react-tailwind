@@ -13,10 +13,10 @@ const Contact = () => {
                 <div className='mb-6 md:mb-0'>
                   <p className="md:text-lg text-[#4d4d4d] font-semibold"><span className='nor hidden'>Find meg på sosiale medier:</span><span className='eng'>Find me on social media:</span></p>
                   <div className="flex gap-16 lg:gap-4 md:gap-10 mt-4">
-                    <a href="#" className="bg-stone-300 text-black">
+                    <a href="https://github.com/SanderSme" className="bg-stone-300 text-black">
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
-                    <a href="#" className="bg-stone-300 text-[#4267b2]">
+                    <a href="https://www.facebook.com/sandersmedbol" className="bg-stone-300 text-[#4267b2]">
                     <FontAwesomeIcon icon={faFacebook} size="2x" />
                     </a>
                     <a href="https://www.linkedin.com/in/sander-smedb%C3%B8l-6b6352224/" className="bg-stone-300 text-[#0072b1]">
