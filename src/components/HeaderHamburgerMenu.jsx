@@ -67,13 +67,13 @@ const HeaderHamburgerMenu = () => {
           <li className='text-gray-100 ml-16 mt-12 flex flex-col gap-6'>
             <p><span className='nor hidden'>Sosiale Medier:</span><span className='eng'>Social Media:</span></p>
             <div className='flex gap-12'>
-              <a href="https://github.com/SanderSme" className="bg-[#313131] text-gray-100">
+              <a href="https://github.com/SanderSme" className="bg-[#181818] text-gray-100">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
-              <a href="https://www.facebook.com/sandersmedbol" className="bg-[#313131] text-gray-100">
+              <a href="https://www.facebook.com/sandersmedbol" className="bg-[#181818] text-gray-100">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
-              <a href="https://www.linkedin.com/in/sander-smedb%C3%B8l-6b6352224/" className="bg-[#313131] text-gray-100">
+              <a href="https://www.linkedin.com/in/sander-smedb%C3%B8l-6b6352224/" className="bg-[#181818] text-gray-100">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </div>
