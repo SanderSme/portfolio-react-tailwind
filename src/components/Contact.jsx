@@ -19,7 +19,7 @@ const Contact = () => {
                     <a href="#" className="bg-stone-300 text-[#4267b2]">
                     <FontAwesomeIcon icon={faFacebook} size="2x" />
                     </a>
-                    <a href="#" className="bg-stone-300 text-[#0072b1]">
+                    <a href="https://www.linkedin.com/in/sander-smedb%C3%B8l-6b6352224/" className="bg-stone-300 text-[#0072b1]">
                     <FontAwesomeIcon icon={faLinkedin} size="2x" />
                     </a>
                   </div>

@@ -75,7 +75,7 @@ const HeaderNavBarDesktop = () => {
         <li className='cursor-pointer'>
           <img src={logo} alt="logo" className="h-16"/>
         </li>
-        <li onClick={scrollToMyWork} className='hover:underline cursor-pointer'><span className='nor hidden'>Mine Prosjecter</span><span className='eng'>My Work</span></li>
+        <li onClick={scrollToMyWork} className='hover:underline cursor-pointer'><span className='nor hidden'>Mine Prosjekter</span><span className='eng'>My Work</span></li>
         <li onClick={scrollToProfile} className='hover:underline cursor-pointer'><span className='nor hidden'>Profil</span><span className='eng'>Profile</span></li>
         <li onClick={scrollToContact} className='hover:underline cursor-pointer'><span className='nor hidden'>Kontakt</span><span className='eng'>Contact</span></li>
       </ul>
