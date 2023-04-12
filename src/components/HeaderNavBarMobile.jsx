@@ -1,5 +1,7 @@
 import logo from '../../public/img/logo.svg'
 import HeaderHamburgerMenu from './HeaderHamburgerMenu.jsx'
+import engFlag from '../../public/img/eng-flag.svg'
+import norFlag from '../../public/img/nor-flag.svg'
 
 const HeaderNavBarMobile = () => {
   function changeToNorwegian(){
@@ -47,8 +49,8 @@ const HeaderNavBarMobile = () => {
         </a>
         <div className="flex flex-row gap-10">
             <div>
-                <button type="button" className="w-8 h-8 bg-gray-100 rounded-l" id='engBtnMobile' onClick={changeToEnglish}><img src="/public/img/eng-flag.svg" alt="english" id='engFlagMobile' className='w-full h-full p-1' /></button>
-                <button type="button" className="w-8 h-8 bg-gray-300 rounded-r" id='norBtnMobile' onClick={changeToNorwegian}><img src="/public/img/nor-flag.svg" alt="norwegian" id='norFlagMobile' className='w-full h-full p-1 opacity-60' /></button>
+                <button type="button" className="w-8 h-8 bg-gray-100 rounded-l" id='engBtnMobile' onClick={changeToEnglish}><img src={engFlag} alt="english" id='engFlagMobile' className='w-full h-full p-1' /></button>
+                <button type="button" className="w-8 h-8 bg-gray-300 rounded-r" id='norBtnMobile' onClick={changeToNorwegian}><img src={norFlag} alt="norwegian" id='norFlagMobile' className='w-full h-full p-1 opacity-60' /></button>
             </div>
         </div>
     </div>
