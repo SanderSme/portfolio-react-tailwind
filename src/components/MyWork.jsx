@@ -44,11 +44,6 @@ const MyWork = () => {
                            infoEng="First project created with API calls. This uses a beer api, whitch holds info about different kinds of beers"
                            infoNor="Første prosjekt opprettet med API-call. Dette bruker et øl-api, som inneholder informasjon om forskjellige typer øl."
                            netlify="https://infallible-curran-299f4a.netlify.app/" github="#"/>
-              <MyWorkCards img={ConnectFour} altText="ConnectFour" heading="Connect Four"
-                           infoEng="Built with Html, Css and JavaScript. Made just for fun after our teacher told us he got a job-offer after he made a simelar game"
-                           infoNor="Dette er et prosjekt som er bygget med Html, Css og JavaScript. Det ble laget bare for moro skyld etter at læreren vår fortalte oss at han fikk et jobbtilbud etter å ha laget et lignende spill."
-                           netlify="https://idyllic-zuccutto-6d2aa3.netlify.app/"
-                           github="https://github.com/SanderSme/connect-four"/>
             </span>
                 )}
             </div>
