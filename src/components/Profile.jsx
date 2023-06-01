@@ -1,5 +1,5 @@
 import ProfilePic from '../../public/img/profile-pic-portfolio.jpg'
-import CV from '../../public/cv-link/CV Sander Smedbøl.pdf'
+import CV from '../../public/cv-link/CV_Sander_Smedbøl.pdf'
 
 const Profile = () => {
     return (
