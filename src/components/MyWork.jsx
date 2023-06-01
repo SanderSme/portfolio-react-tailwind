@@ -5,7 +5,7 @@ import BoatDatLife from '../../public/img/Blog.png'
 import Museum from '../../public/img/CSM.png'
 import BeerHelper from '../../public/img/BeerHelper.png'
 import SmartMart from '../../public/img/smartmart.png'
-import ConnectFour from '../../public/img/connect-four.png'
+import Holidaze from '../../public/img/holidaze.png'
 
 const MyWork = () => {
     const [showHiddenWorks, setShowHiddenWorks] = useState(false);
@@ -19,17 +19,23 @@ const MyWork = () => {
             <h2 className="text-3xl font-semibold flex justify-center text-[#333]"><span className='nor hidden'>Mine Prosjekter</span><span
                 className='eng'>My Work</span></h2>
             <div className='flex flex-wrap flex-col md:flex-row justify-between'>
+                <MyWorkCards img={Holidaze} altText="Holidaze" heading="Holidaze"
+                            infoEng="This is my final exam. It is an accomandation booking site called Holidaze, where users can create a profile, view venues, book venues and upload venues. The user can also search and filter through venues. The project is made with React, Redux, Node.js, vite and Tailwindcss"
+                            infoNor="Dette er min avsluttende eksamen. Det er en overnattingsbestillingsside kalt Holidaze, der brukere kan opprette en profil, se på venues, bestille venues og laste opp venues. Brukeren kan også søke og filtrere gjennom venues. Prosjektet er laget med React, Redux, Node.js, vite og Tailwindcss."
+                            netlify="https://chipper-maamoul-71ea90.netlify.app/"
+                            github="https://github.com/SanderSme/project-exam-holidaze"/>
                 <MyWorkCards img={SmartMart} altText="SmartMart" heading="Smart Mart"
                             infoEng="This is my first React project - an e-commerce store page for a fictional online store. I used Tailwind CSS for styling and Vite as the development server. With React's component-based architecture, managing the application's state and logic was seamless, providing a great user experience."
                             infoNor="Dette er mitt første React-prosjekt - en e-handels butikkside for en fiktiv nettbutikk. Jeg brukte Tailwind CSS for styling og Vite som utviklingsserver. Med Reacts komponentbaserte arkitektur var det sømløst å håndtere applikasjonens tilstand og logikk, noe som ga en god brukeropplevelse."
                             netlify="https://fabulous-ganache-81b78b.netlify.app/"
                             github="https://github.com/SanderSme/smart-mart"/>
+                {showHiddenWorks && (
+                    <span id='HiddenWorks' className='flex flex-wrap flex-col md:flex-row justify-between'>
                 <MyWorkCards img={auctiON} altText="auctiON" heading="auctiON"
                              infoEng="Auction website built with Html, Tailwindcss and JavaScript, where you can create user, log in, view products, list items and bid on products. This was created for a school exam"
                              infoNor="Auksjonsnettsted laget med Html, Tailwindcss og JavaScript, hvor du kan opprette bruker, logge inn, se produkter, liste varer og legge inn bud på produkter. Dette ble laget for en skoleeksamen."
                              netlify="https://lighthearted-kashata-094aed.netlify.app/" github=""/>
-                {showHiddenWorks && (
-                    <span id='HiddenWorks' className='flex flex-wrap flex-col md:flex-row justify-between'>
+                
                 <MyWorkCards img={BoatDatLife} altText="BoatThatLife" heading="BoatThatLife"
                              infoEng="Blog website built with html, css, JavaScript and Wordpress. Blogposts are filled with dummy-text, and can be filtered and search through"
                              infoNor="Bloggnettsted bygget med html, css, JavaScript og Wordpress. Blogginnlegg er fylt med fiktiv tekst og kan filtreres og søkes gjennom."
