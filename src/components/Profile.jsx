@@ -1,13 +1,13 @@
 import ProfilePic from '../../public/img/profile-pic-portfolio.jpg'
-import CV from '../../public/cv-link/CV_Sander_Smedbøl.pdf'
+import CV from '../../public/cv-link/Sander_Smedbøl_-_.pdf'
 
 const Profile = () => {
     return (
-      <section id="profile" className='h-fit bg-gradient-to-b from-[#2C5F2D] to-[#1d421d] max-w-6xl mx-auto w-11/12 p-8 rounded-lg mt-8'>
+      <section id="profile" className='h-fit bg-gradient-to-b from-[#2C5F2D] to-[#1d421d] max-w-6xl mx-auto w-11/12 p-4 rounded-lg mt-8'>
           <h2 className="text-gray-100 text-3xl font-semibold flex justify-center"><span className="nor hidden">Profil</span><span className="eng">Profile</span></h2>
           <div className="flex flex-col md:flex-row justify-between mt-4 md:mt-8">
             <div className="h-[150px] w-[200px] md:h-[285px] md:w-[285px] mx-auto mb-4 md:mb-0"> 
-            <img src={ProfilePic} alt="profile-picture" className='w-full h-full object-cover rounded-lg'/>
+              <img src={ProfilePic} alt="profile-picture" className='w-full h-full object-cover rounded-lg'/>
             </div>
             <div className="md:w-1/2 flex flex-col justify-between">
               <h3 className="text-gray-100 text-xl md:text-2xl text-center mb-4 md:mb-8">Sander Smedbøl</h3>

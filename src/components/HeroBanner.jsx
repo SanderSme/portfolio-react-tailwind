@@ -10,7 +10,7 @@ import HeroBannerHeadingCarousel from './HeroBannerHeadingCarousel.jsx'
 import ProfilePic from '../../public/img/portfolio-profile-img.png'
 
 const HeroBanner = () => {
-    const strings = ["Hello!", "Greetings!", "Hei!"]
+    const strings = ["Hello!", "Greetings!", "Hei!", "Bonjour!", "Hola!"]
 
     function test(year) {
         var myDate = new Date().getFullYear()
@@ -25,7 +25,7 @@ const HeroBanner = () => {
 
     return (
         <div className=" max-w-6xl mx-auto w-11/12 flex flex-col-reverse lg:flex-row ">
-            <div className=" w-full text-gray-100 flex flex-col items-center ">
+            <div className=" w-full text-gray-100 flex flex-col items-center justify-center relative">
                 <h1 className="text-3xl md:text-5xl lg:text-6xl my-6 lg:my-12 font-semibold"><HeroBannerHeadingCarousel
                     strings={strings}/></h1>
                 <p className="md:text-2xl lg:mt-8"><span className='nor hidden'>Mitt navn er Sander Smedbøl, og jeg er en Front end utvikler bosatt i Oslo, Norge</span><span
@@ -37,7 +37,7 @@ const HeroBanner = () => {
                     <HeroBannerExperienceCard image={jsLogo} altText="js-logo" language="JavaScript" time={test(2021)}/>
                     <HeroBannerExperienceCard image={figmaLogo} altText="figma-logo" language="Figma" time={test(2021)}/>
                     <HeroBannerExperienceCard image={tailwindLogo} altText="tailwind-logo" language="Tailwind" time={test(2022)}/>
-                    <HeroBannerExperienceCard image={reactLogo} altText="react-logo" language="React" time={test(2023)}/>
+                    <HeroBannerExperienceCard image={reactLogo} altText="react-logo" language="React" time={test(2022)}/>
                 </div>
             </div>
             <div className="w-2/3 md:w-1/2 lg:w-full mx-auto h-fit flex justify-center">
