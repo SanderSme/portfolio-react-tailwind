@@ -41,7 +41,7 @@ const HeroBanner = () => {
                 </div>
             </div>
             <div className="w-2/3 md:w-1/2 lg:w-full mx-auto h-fit flex justify-center">
-                <img src={ProfilePic} className=' w-2/3 h-full object-cover'/>
+                <img src={ProfilePic} className=' w-2/3 h-full object-cover rounded'/>
             </div>
         </div>
     )
