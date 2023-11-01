@@ -40,7 +40,9 @@ const HeroBanner = () => {
                     <HeroBannerExperienceCard image={reactLogo} altText="react-logo" language="React" time={test(2022)}/>
                 </div>
             </div>
-            <div className="w-2/3 md:w-1/2 lg:w-full mx-auto h-fit flex justify-center">
+            <div className="w-2/3 md:w-1/2 lg:w-full mx-auto h-fit flex justify-center relative">
+                <div className='absolute w-2/3 h-full bg-gradient-to-l from-[#181818] via-transparent to-[#181818]'></div>
+                <div className='absolute w-2/3 h-1/2 bottom-0 bg-gradient-to-b from-transparent to-[#181818]'></div>
                 <img src={ProfilePic} className=' w-2/3 h-full object-cover rounded'/>
             </div>
         </div>

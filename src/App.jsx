@@ -14,10 +14,10 @@ function App() {
         <Header/>
       </header>
       <main id='main'>
-        <section className=' h-fit py-6 bg-gradient-to-b from-[#181818] to-[#202020] '>
+        <section className=' h-fit py-6 bg-[#181818]'>
           <HeroBanner/>
         </section>
-        <section id='my-work' className='h-fit'>
+        <section id='my-work' className='h-fit bg-gradient-to-b from-[#181818] to-[#202020]'>
           <MyWork/>
         </section>
         <Profile/>
